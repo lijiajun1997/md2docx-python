@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "md2docx-python"
+version = "1.3.1"
+description = "Markdown to Word/Excel converter with rich text support"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "md2docx-python contributors"}
+]
+keywords = ["markdown", "word", "excel", "converter", "docx", "xlsx"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "python-docx>=0.8.11",
+    "openpyxl>=3.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/lijiajun1997/md2docx-python"
+Repository = "https://github.com/lijiajun1997/md2docx-python"
+Issues = "https://github.com/lijiajun1997/md2docx-python/issues"
